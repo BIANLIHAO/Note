@@ -20,6 +20,7 @@
 * git push -u origin master  第一次推送master分支的所有内容
 * git push origin master 推送最新修改
 * 在进行修改后，需要将代表先git add .然后git commit -m "备注"到暂存区，之后将修改push到远端。
+* 在提交push时会出错，先将远端pull过来后在进行push，git pull --rebase origin master
 
 
 
